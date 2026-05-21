@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Outfit:wght@300;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #c5a059;
+  --color-dark: #050505;
+  --color-paper: #f0f0f0;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-dark text-paper font-sans antialiased selection:bg-gold selection:text-dark;
+  }
+}
+
+@layer utilities {
+  .text-huge {
+    font-size: clamp(4rem, 20vw, 24rem);
+    line-height: 0.82;
+    letter-spacing: -0.05em;
+  }
+  
+  .glass {
+    @apply bg-white/5 border border-white/10 backdrop-blur-md;
+  }
+  
+  .pill {
+    @apply border border-white/20 rounded-full px-3 py-1 text-[10px] uppercase tracking-widest font-medium;
+  }
+  
+  .bg-noise {
+    background-image: radial-gradient(circle at 50% 50%, rgba(20, 20, 20, 1) 0%, rgba(5, 5, 5, 1) 100%);
+  }
+}

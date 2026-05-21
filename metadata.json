@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Huang Yinying Portfolio",
+  "description": "Professional portfolio of Huang Yinying, a UI/UX \u0026 AIGC Designer with 10 years of experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
