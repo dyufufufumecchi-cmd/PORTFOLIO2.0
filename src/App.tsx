@@ -23,7 +23,7 @@ import {
 } from "lucide-react";
 import { useRef, useState, useEffect } from "react";
 
-const PROJECTS = [
+const RAW_PROJECTS = [
   {
     id: "cctv-news",
     name: "央视新闻",
@@ -166,6 +166,12 @@ const PROJECTS = [
     ],
   }
 ];
+
+const PROJECTS = RAW_PROJECTS.map(p => ({
+  ...p,
+  image: p.image.startsWith("/") ? p.image.slice(1) : p.image,
+  gallery: p.gallery?.map(path => path.startsWith("/") ? path.slice(1) : path) || []
+}));
 
 const EXPERIENCE = [
   {
