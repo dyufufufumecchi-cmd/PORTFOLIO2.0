@@ -419,7 +419,7 @@ export default function App() {
                   <OptimizedImage 
                     src={project.image} 
                     alt={project.name}
-                    className="w-full aspect-video object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
+                    className="w-full aspect-video object-cover opacity-70 group-hover:opacity-100 transition-all duration-700"
                   />
                 </div>
                 
