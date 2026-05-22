@@ -153,7 +153,7 @@ const RAW_PROJECTS = [
     tags: ["Midjourney", "Stable Diffusion", "AI Workflow", "LoRA"],
     image: "/covers/cover_06.webp",
     gallery: [
-      "/projects/aigc/aigc_01.mp4",
+      "/projects/aigc/aigc_01.gif",
       "/projects/aigc/aigc_02.webp",
       "/projects/aigc/aigc_03.mp4",
       "/projects/aigc/aigc_04.mp4",
