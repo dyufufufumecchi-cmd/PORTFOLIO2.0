@@ -47,8 +47,9 @@ const RAW_PROJECTS = [
       "/projects/cctv/cctv_11.webp",
       "/projects/cctv/cctv_12.webp",
       "/projects/cctv/cctv_13.webp",
-      "/projects/cctv/cctv_14.webp",
-      "/projects/cctv/cctv_15.webp"
+      "/projects/cctv/cctv_14.mp4",
+      "/projects/cctv/cctv_15.webp",
+      "/projects/cctv/cctv_16.webp"
     ],
   },
   {
