@@ -163,9 +163,7 @@ const RAW_PROJECTS = [
       "/projects/aigc/aigc_05.webp",
       "/projects/aigc/aigc_06.webp",
       "/projects/aigc/aigc_07.webp",
-      "/projects/aigc/aigc_08.webp",
-      "/projects/aigc/aigc_09.webp",
-      "/projects/aigc/aigc_10.webp"
+      "/projects/aigc/aigc_08.webp"
     ],
   }
 ];
