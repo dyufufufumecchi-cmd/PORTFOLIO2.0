@@ -22,6 +22,8 @@ import {
   X
 } from "lucide-react";
 import { useRef, useState, useEffect } from "react";
+import MouseEffects from "./components/MouseEffects";
+import ShinyPill from "./components/ShinyPill";
 
 const RAW_PROJECTS = [
   {
@@ -275,6 +277,11 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-noise text-paper selection:bg-gold selection:text-dark">
+      {/* Click Effects Layer */}
+      <div className="fixed inset-0 pointer-events-none z-[9999]">
+        <MouseEffects showLabel={false} interactionMode="sniper" color="#d4af37" effectSize={90} />
+      </div>
+
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full z-50 px-4 md:px-8 py-6 md:py-10 flex justify-between items-center border-b border-white/10 text-paper bg-dark/80 backdrop-blur-md">
         <div className="flex flex-col">
@@ -326,9 +333,23 @@ export default function App() {
           className="relative z-10 max-w-7xl mx-auto w-full grid grid-cols-12 gap-8"
         >
           <div className="col-span-12 lg:col-span-10">
-            <h1 className="font-display text-[clamp(4rem,12vw,14rem)] leading-[0.8] font-black uppercase tracking-tighter mb-8">
-              Portfolio
-            </h1>
+            <div className="mb-8 block">
+              <ShinyPill
+                text="PORTFOLIO"
+                textColor="#FFFFFF"
+                shineColor="#78DEFF"
+                speed={1.5}
+                font={{
+                  variant: "Black",
+                  fontSize: "clamp(3.2rem, 10vw, 120px)",
+                  textAlign: "left",
+                  fontFamily: "Sora, sans-serif",
+                  fontWeight: 900,
+                  lineHeight: "1em",
+                  letterSpacing: "-0.05em",
+                }}
+              />
+            </div>
             
             <div className="max-w-xl mt-12">
               <motion.p 
