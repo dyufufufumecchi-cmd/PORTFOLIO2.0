@@ -71,8 +71,8 @@ const RAW_PROJECTS = [
       "/projects/sim/sim_05.webp",
       "/projects/sim/sim_06.webp",
       "/projects/sim/sim_07.webp",
-      "/projects/sim/sim_08.webp",
-      "/projects/sim/sim_09.gif",
+      "/projects/sim/sim_08.gif",
+      "/projects/sim/sim_09.webp",
       "/projects/sim/sim_10.webp",
       "/projects/sim/sim_11.webp",
       "/projects/sim/sim_12.webp",
@@ -82,11 +82,7 @@ const RAW_PROJECTS = [
       "/projects/sim/sim_16.webp",
       "/projects/sim/sim_17.webp",
       "/projects/sim/sim_18.webp",
-      "/projects/sim/sim_19.webp",
-      "/projects/sim/sim_20.webp",
-      "/projects/sim/sim_21.webp",
-      "/projects/sim/sim_22.webp",
-      "/projects/sim/sim_23.webp"
+      "/projects/sim/sim_19.webp"
     ],
   },
   {
